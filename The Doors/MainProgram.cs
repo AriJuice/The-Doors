@@ -14,6 +14,9 @@
             int defence = 10;
 
             Player player = new Player(health, damage, defence, name);
+
+            ConsoleSupport.SpareLine(2);
+            Player.PrintStats(player.Health, player.Damage, player.Defence);
         }
     }
 }

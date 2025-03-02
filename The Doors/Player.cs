@@ -32,5 +32,14 @@ namespace The_Doors
             name = name.ToLower();
             return char.ToUpper(name[0]) + name.Substring(1);
         }
+        public static void PrintStats(int health, int damage, int defence)
+        {
+            ConsoleSupport.SpareLine(1);
+            Console.WriteLine("Your current statistics are: ");
+            ConsoleSupport.SpareLine(1);
+            Console.WriteLine($"Health -> {health}");
+            Console.WriteLine($"Damage -> {damage}");
+            Console.WriteLine($"Defence -> {defence}");
+        }
     }
 }

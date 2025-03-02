@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="TextToAsciiArt" Version="1.0.14.15" />
+  </ItemGroup>
+
 </Project>
